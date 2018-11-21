@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>蛇吃月饼</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="js/snake.js"></script>
+		<style type="text/css">
+			canvas {
+				background: #ccc;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<canvas id="canvaId"></canvas>
+
+		<script>
+			var canvas = document.getElementById("canvaId");
+			canvas.width = 600;
+			canvas.height = 600; 
+			var ctx = canvas.getContext("2d");
+
+
+			var s = new Snake({
+				width:canvas.width,
+				height:canvas.height,
+				space:20,
+				ctx:ctx
+			})
+			s.init();
+			
+			
+			
+		</script>
+	</body>
+</html>
