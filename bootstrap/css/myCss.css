@@ -1,0 +1,211 @@
+.my_fluid{
+    height: 50px;
+    border: 1px solid #CCCCCC;
+}
+.my_fluid>.container>.row>div{
+    height: 50px;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+}
+.my_fluid>.container>.row>div:first-child{
+    border-left: 0px;
+}
+.my_fluid>.container>.row>div>a{
+    color: #000;
+    text-decoration: none;
+}
+.my_fluid>.container>.row>div>a.code{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: block;
+
+}
+.my_fluid>.container>.row>div:first-child>a.code>img{
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 48px;
+    left: 50%;
+    margin-left: -60px;
+    border-top: 0px;
+    display:none;
+}
+.my_fluid>.container>.row>div:first-child>a.code:hover>img{
+    display: block;
+}
+.my_fluid>.container>.row>div>.btn-zc{
+    background: red;
+    color: #fff;
+}
+.my_fluid>.container>.row>div>.btn-zc:hover{
+    color: #ccc;
+}
+
+
+
+.collapse>.nav>.lis{
+    border-bottom: 3px solid red;
+}
+.collapse>.nav>li:hover{
+    border-bottom: 3px solid red;
+
+}
+.myNav {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    margin-bottom: 0px;
+}
+.myNav .navbar-brand {
+    color: #777;
+}
+.myNav .navbar-brand:hover,
+.myNav .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.myNav .navbar-text {
+    color: #777;
+}
+.myNav .navbar-nav > li > a {
+    height: 100px;
+    line-height: 80px;
+    color: #777;
+}
+.myNav .navbar-nav > li > a:hover,
+.myNav .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+}
+.myNav .navbar-nav > .active > a,
+.myNav .navbar-nav > .active > a:hover,
+.myNav .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.myNav .navbar-nav > .disabled > a,
+.myNav .navbar-nav > .disabled > a:hover,
+.myNav .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.myNav .navbar-toggle {
+    border-color: #ddd;
+    margin-top: 33px;
+    margin-bottom: 33px;
+
+}
+.myNav .navbar-toggle:hover,
+.myNav .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.myNav .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.myNav .navbar-collapse,
+.myNav .navbar-form {
+    border-color: #e7e7e7;
+}
+.myNav .navbar-nav > .open > a,
+.myNav .navbar-nav > .open > a:hover,
+.myNav .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .myNav .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .myNav .navbar-nav .open .dropdown-menu > li > a:hover,
+    .myNav .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .myNav .navbar-nav .open .dropdown-menu > .active > a,
+    .myNav .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .myNav .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .myNav .navbar-nav .open .dropdown-menu > .disabled > a,
+    .myNav .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .myNav .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.myNav .navbar-link {
+    color: #777;
+}
+.myNav .navbar-link:hover {
+    color: #333;
+}
+.myNav .btn-link {
+    color: #777;
+}
+.myNav .btn-link:hover,
+.myNav .btn-link:focus {
+    color: #333;
+}
+.myNav .btn-link[disabled]:hover,
+fieldset[disabled] .myNav .btn-link:hover,
+.myNav .btn-link[disabled]:focus,
+fieldset[disabled] .myNav .btn-link:focus {
+    color: #ccc;
+}
+.wjs_logo{
+    font-size: 36px;
+    height: 100px;
+    line-height: 100px;
+    color: red;
+
+}
+.wjs_word{
+
+    font-size: 30px;
+    color: #3c3c3c;
+
+}
+.navbar-header>a{
+    text-decoration: none;
+}
+
+#banner>.carousel-inner>.item>.pc_img{
+    display: block;
+    width: 100%;
+    height: 410px;
+    background-size: 100% 100%;
+}
+#banner>.carousel-inner>.item>.ipn_img{
+    width: 100%;
+    display: block;
+}
+#banner>.carousel-inner>.item>.ipn_img>img{
+    width: 100%;
+}
+
+
+.wjs_info{
+    width: 100%;
+    padding: 50px;
+}
+.wjs_info>.container>.row>.col-md-4>.media>a{
+       padding-top: 50px;
+       display: block;
+       text-decoration: none;
+}
+.wjs_info>.container>.row>.col-md-4>.media>a:hover{
+    color: red;
+}
+.wjs_info>.container>.row>.col-md-4>.media>a>.media-left{
+   font-size: 30px;
+}
+
+/*.wjs_info>.container>.row>.col-md-4>.media>a>.media-left>.wjs_icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+}*/
+
+
+
